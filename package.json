@@ -8,12 +8,10 @@
     "start": "next start"
   },
   "dependencies": {
-    "elizabot": "^1.0.0",
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "react-chrono": "latest",
-    "tensorspace": "latest"
+    "next": "^13.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-chrono": "^2.1.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.0",

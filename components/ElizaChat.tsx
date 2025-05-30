@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import elizabot from "elizabot";
+import ElizaBot from "../lib/elizabot";
 
 export default function ElizaChat() {
   const elizaRef = useRef<any>(null);
@@ -9,7 +9,7 @@ export default function ElizaChat() {
   const [input, setInput] = useState("");
 
   useEffect(() => {
-    elizaRef.current = new elizabot();
+    elizaRef.current = new ElizaBot();
     const initial = elizaRef.current.getInitial();
     setLog(["ELIZA: " + initial]);
   }, []);
