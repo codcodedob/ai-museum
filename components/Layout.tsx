@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 import Link from "next/link";
 import dynamic from "next/dynamic";
-
+import "../styles/globals.css";
 
 const ElizaChat = dynamic(() => import("./ElizaChat"), { ssr: false });
 

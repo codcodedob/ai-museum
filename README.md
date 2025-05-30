@@ -1,49 +1,28 @@
-# 🧠 AI Museum
+# 🧠 AI Museum (Unified)
 
-Welcome to the **AI Museum** — an interactive, scrollable timeline and chatbot experience that showcases the history and evolution of artificial intelligence.
+A futuristic AI history museum app featuring:
 
-## 🚀 Features
+- 🧭 Scrollable timeline of AI milestones (react-chrono)
+- 💬 ELIZA chatbot (1966 simulation)
+- ⚙️ Tailwind-styled layout
+- 🚀 Vercel-ready Next.js app
 
-- 🧭 Scrollable timeline (coming soon with react-chrono)
-- 💬 ELIZA chatbot (1966 classic)
-- 🧠 Local simulation of early AI dialogue
-- 🎨 Futuristic dark-themed UI (Next.js + Tailwind)
-- 📦 Ready for Vercel deployment
-
-## 🛠 Tech Stack
-
-- React + Next.js
-- Tailwind CSS
-- Custom ELIZA engine (no npm dependency)
-- GitHub + Vercel for CI/CD
-
-## 📦 Install & Run
+## 🔧 Setup
 
 ```bash
 npm install
 npm run dev
 ```
 
+## 📦 Stack
+
+- Next.js + React
+- Tailwind CSS
+- Timeline via react-chrono
+- ELIZA: local JS bot
+
 ## 🌐 Deployment
 
-Push to a GitHub repo and connect to [Vercel](https://vercel.com) for automatic deployment.
-
-## 📁 Project Structure
-
-```
-components/     # Layout and chatbot components
-lib/            # ELIZA logic engine
-pages/          # Next.js pages
-styles/         # Tailwind global styles
-```
-
-## 👀 Coming Soon
-
-- GPT-2 & GPT-4 chatbot integrations
-- OpenAI voice narration
-- 3D neural net visualizations with Three.js
-- Supabase / Notion-powered CMS timeline
+Push to GitHub, then connect to Vercel for auto-deployment.
 
 ---
-
-© 2025 AI Archive. Built for the curious.
